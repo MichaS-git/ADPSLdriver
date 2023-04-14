@@ -1,0 +1,456 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_instalation_cam_link.html"><param name="Name" value="Installation Instructions - CamLink - Multicam (Euresys)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_instalation_g_e_v.html"><param name="Name" value="Installation notes GEV - eBUS SDK (Pleora Technologies)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aeeaf868e734e8b4cc0fef2d5c4441de5"><param name="Name" value="PSL_VHR_20bit_Fusion_snap(unsigned short noise_reduction_factor)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a23c480d91457b36ad6d64b6072891220"><param name="Name" value="PSL_VHR_Close(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a91fbe1ba4c1960dd03356089933772f0"><param name="Name" value="PSL_VHR_Fusion_snap(unsigned short noise_reduction_factor)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af83cda1bb91619a9a32e79e0aa3c375e"><param name="Name" value="PSL_VHR_Fusion_snap_for_14_bit_cameras(unsigned short noise_reduction_factor)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ad644a20a624da4a8c30e52cb1fc8a002"><param name="Name" value="PSL_VHR_Get_20bit_fusion_image_pointer(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ace5fa8f4b33d1bad2c1dabdf5c109188"><param name="Name" value="PSL_VHR_Get_snap_status(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aeabebcac3f2c850b105c04151b080e62"><param name="Name" value="PSL_VHR_Is_14bit_camera(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af7cc6945f5dcc081b4ec0494626a0e26"><param name="Name" value="PSL_VHR_Is_Cyclops_camera(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a86dc403af8c44f1b6b734b562deb0230"><param name="Name" value="PSL_VHR_Open(char *PSL_camera_files_path)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a7b3152ec05bd73718452f1ffabe0852a"><param name="Name" value="PSL_VHR_Reload_camera_correction_files(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a83bbe7105bd162caf0006aae823d8dc9"><param name="Name" value="PSL_VHR_Snap_and_return(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae4f584a554c1f1ac822ee609b1c65e3b"><param name="Name" value="PSL_VHR_Snap_double_images(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a547da05b35df57a2bef448f55c09a150"><param name="Name" value="PSL_VHR_abort_snap(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a971b0f88a023f74e97a2591df9cb2988"><param name="Name" value="PSL_VHR_apply_post_snap_processing(unsigned short *pImage)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a1f86f987f3a2d2877630e4d20b42946f"><param name="Name" value="PSL_VHR_bestfit_is_enabled(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a54384805c4f6e3998a40f11f2eabcf2b"><param name="Name" value="PSL_VHR_configure_bright_pixel_processing(int bpmode)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ac08c54851ef179e507b2434cd92c76ef"><param name="Name" value="PSL_VHR_configure_high_precision_mapping(unsigned short xorigin, unsigned short yorigin, int rotation, unsigned short subwidth, unsigned short subheight, bool bAngularEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a9a37cc1e716e5131b5528b0a20e009e3"><param name="Name" value="PSL_VHR_convert_32_bit_image_to_16bit(unsigned long *orig_image, int image_width, int image_height)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a8b3fef5fb26df3a07e299decc47382b3"><param name="Name" value="PSL_VHR_enable_auto_gain_control(bool bEnable)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a8622261b1a251b2400fe1c6df8e0dc1d"><param name="Name" value="PSL_VHR_enable_bestfit(bool bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ac7ef985601f7af70bd3bfedd5dbaabbd"><param name="Name" value="PSL_VHR_enable_bright_corner_subtraction(bool bBrightCornerSubtractionEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ac924a2e6d597f3b79e2b4a1365805f1c"><param name="Name" value="PSL_VHR_enable_bright_pixel_correction(bool bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a82dfd9264ce60db49c2f30bfbd8c7f89"><param name="Name" value="PSL_VHR_enable_cooling(bool bCooling)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aa2ecc9d6bd2c5c59c8113261fe339698"><param name="Name" value="PSL_VHR_enable_cyclops_bin2_mode(bool bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aef3fc6ce72dc6edfc7b96978bfac77a3"><param name="Name" value="PSL_VHR_enable_flat_field_correction(bool bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a71a344a46feb444ea4efa9c813b3a69b"><param name="Name" value="PSL_VHR_enable_image_streaming(bool bEnable)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a0ed0b9caa56e9a772cebe98cb76c37ea"><param name="Name" value="PSL_VHR_enable_offset_subtraction(bool bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af24f115f8b84538dc028fecc5466d90b"><param name="Name" value="PSL_VHR_enable_sharpening(bool bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a6616cecc09578a5784168eb69416c0b2"><param name="Name" value="PSL_VHR_enable_spotred(bool bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a4591bf4b19423a082e2dd95315aa08f0"><param name="Name" value="PSL_VHR_enable_test_chart(int bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae8ecd19c0f3e3411ab2352797e87e567"><param name="Name" value="PSL_VHR_enable_undefined_bit(int bEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae8f20fe26a07c091956695ef5f530280"><param name="Name" value="PSL_VHR_free_sequence_storage(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#adff3e70b92a1a66fbe567900d3d371ea"><param name="Name" value="PSL_VHR_generate_flat_field_image(int numtoaverage)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a7457acc403b81f236603dd14f35bf435"><param name="Name" value="PSL_VHR_generate_high_precision_working_map(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aeb52c024281900789660bf9eac3d3c33"><param name="Name" value="PSL_VHR_get_PLD_date(unsigned short *day, unsigned short *month, unsigned short *year)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a88780f95f5b63a31b59cbf94cab1380d"><param name="Name" value="PSL_VHR_get_RG_end(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a174d04e76b642855ee0553b024f9e92f"><param name="Name" value="PSL_VHR_get_RG_start(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aa2b8df1aaf417d0addc9207838ec00cb"><param name="Name" value="PSL_VHR_get_SHD(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a340a7502df8694439dfbb958595d5b64"><param name="Name" value="PSL_VHR_get_SHP(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a24cc92f7c68cb83a58c9e34f4c89ca76"><param name="Name" value="PSL_VHR_get_SHP_width(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a42e67ab16e30a04824c8a188140af1cb"><param name="Name" value="PSL_VHR_get_actual_sub_area_coordinates(i32 *left, i32 *right, i32 *top, i32 *bottom)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a6ed815e809b384b29562c10a7bc6cc23"><param name="Name" value="PSL_VHR_get_auto_gain_control_status(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a579f1843c4fd4d28ca4c916fecec7494"><param name="Name" value="PSL_VHR_get_bright_pixel_mode(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af064a2101cee30527c95ec238c2824ff"><param name="Name" value="PSL_VHR_get_exposure_start_delay(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a33473a44063e90cd35e48cac78bfc174"><param name="Name" value="PSL_VHR_get_height(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a6d3e6132e2e41d457814911263d9018e"><param name="Name" value="PSL_VHR_get_high_precision_remapped_image_dimensions(int *working_mapwidth, int *working_mapheight)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a31792bfe9359bf694aaf87739417bb06"><param name="Name" value="PSL_VHR_get_image_pointer(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a1557069e1ca9efe90655f024f9ee9ee8"><param name="Name" value="PSL_VHR_get_image_pointer2(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a8712135fe44d8c90f6554a0659f1802f"><param name="Name" value="PSL_VHR_get_maximum_height(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#abd7f5e77920349585ec2aac4f114f5ae"><param name="Name" value="PSL_VHR_get_maximum_width(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a8b4f15caf4db1120e4b8e734462b555d"><param name="Name" value="PSL_VHR_get_offset()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aeaaa6349f5453ef10937c10f7bd46ce4"><param name="Name" value="PSL_VHR_get_sequence_image_pointer(unsigned short **pSequenceImage, unsigned long image_required)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a969736f5e4c4f8bd4e54cfb38adb26da"><param name="Name" value="PSL_VHR_get_speed(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a72441e71afad3cd0d5f12fc9bc6aeac0"><param name="Name" value="PSL_VHR_get_trigger_out_high_time(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a46e9f4976680efbecb8038d737b1c2a6"><param name="Name" value="PSL_VHR_get_width(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a7b2d38a8acd7d612abbe692d1556c8ef"><param name="Name" value="PSL_VHR_initialise_sequence_storage(unsigned long no_images)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a16714057bba75854af538fc217dc087c"><param name="Name" value="PSL_VHR_load_camera_configuration_file(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a5b68770b5d7de0872f10df9082d72599"><param name="Name" value="PSL_VHR_open_map(char *mapfile)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a4090de5134e61c55705bce8eff35fbed"><param name="Name" value="PSL_VHR_perform_glow_correction(unsigned short *orig_image, int image_width, int image_height)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a28ed1be37660139819098a1a8b6a444c"><param name="Name" value="PSL_VHR_perform_high_precision_remap(unsigned short *orig_image, bool bSmoothingEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#abcb458b83e5591d4b1c79674e9f53deb"><param name="Name" value="PSL_VHR_read_PLD_temperature(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a17d1a0a7495c5b48a4bf76262b38e479"><param name="Name" value="PSL_VHR_remap_14bit_fusion_image(unsigned long *orig_image, int *image_width, int *image_height, bool bSmoothingEnabled, bool bClippingEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af71487f8e778b1d21f7e2ac91519736a"><param name="Name" value="PSL_VHR_remap_image(unsigned short *orig_image, int *image_width, int *image_height, bool bSmoothingEnabled, bool bClippingEnabled)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a0b65f514e17f79bab4021d69db4751bd"><param name="Name" value="PSL_VHR_reset_camera(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ab70d9c1c7278cb4097f42b70b2be843f"><param name="Name" value="PSL_VHR_save_flf_image(unsigned short *pImage, int width, int height, char *fname)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a2041e09526ab891e7dd602df2e40e637"><param name="Name" value="PSL_VHR_save_sequence_as_multiple_flf_files(unsigned long no_images_to_save)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ad3b1f0512e68330efcc06afad9124111"><param name="Name" value="PSL_VHR_select_IPORT_device(char *MACaddress, char *IPaddress)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a6e4232313dad8379e14e2d8f0927be37"><param name="Name" value="PSL_VHR_set_RG_end(int val)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ac3bab1961694557a87965bd4495c53c0"><param name="Name" value="PSL_VHR_set_RG_start(int val)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ab8427ee2e0941df9c04025179cb28270"><param name="Name" value="PSL_VHR_set_SHD(int val)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ab483901134c236dd95eb4eefd5de39b0"><param name="Name" value="PSL_VHR_set_SHP(int val)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a61052026b607ca6d724f0309a85c792c"><param name="Name" value="PSL_VHR_set_SHP_width(int val)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae999e6f392922d44cba90d61bf31a99e"><param name="Name" value="PSL_VHR_set_exposure(unsigned long time_in_millisecs)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a9632167bc338d14f05d597b1ff95719f"><param name="Name" value="PSL_VHR_set_exposure_start_delay(int val)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a47715221652f992dc755f2b9d9ba696e"><param name="Name" value="PSL_VHR_set_intensifier_gain(unsigned long iChipGain)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae77cf418a231e7df95bddf61b1c8ba82"><param name="Name" value="PSL_VHR_set_offset(int offset)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a56587a8de3f038aa78c990d7f90d9da7"><param name="Name" value="PSL_VHR_set_preamp_gain_mode(int iMode)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a299250db101e245f3ad6714eb97eb784"><param name="Name" value="PSL_VHR_set_speed(int iSpeed)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#affc52c51df9eb7026d4c3fb7adc1285b"><param name="Name" value="PSL_VHR_set_sub_area_coordinates(i32 left, i32 right, i32 top, i32 bottom, i32 xBin, i32 yBin)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af15695fddc7af802ea443d1eb74f638c"><param name="Name" value="PSL_VHR_set_trigger_mode(int trigger_mode)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a9d3c0d73ef49b1015045c933aae72adb"><param name="Name" value="PSL_VHR_set_trigger_out_high_time(int val)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#afe192c52d3ad2073dce3acfcc4508f86"><param name="Name" value="PSL_VHR_set_video_gain(unsigned long iVidGain)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a14c548722943ea5fda24eb3601ab32d0"><param name="Name" value="PSL_VHR_snap_sequence(unsigned long no_images_to_snap)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a54b655b93e1081d1870fdac700be469c"><param name="Name" value="PSL_VHR_software_bin_20bit_fusion_image(unsigned long *orig_image, int *image_width, int *image_height, int xbinning, int ybinning)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a723c3c9f7cb3a25c673148c0bd94ea2f"><param name="Name" value="PSL_VHR_software_bin_image(unsigned short *orig_image, int *image_width, int *image_height, int xbinning, int ybinning)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ad075fb9e37987cd8413efb0012625145"><param name="Name" value="PSL_VHR_start_continuous(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a2e8a42fa362e45575db1f93bebf1fbe5"><param name="Name" value="PSL_VHR_stop_continuous(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a30c6ba6bc4f0c4bd6e8e62a3c302d745"><param name="Name" value="PSL_VHR_write_tiff16_file(unsigned short *orig_image, int image_width, int image_height, char *fname)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a53d4955c5aa8296107ffddd8de020cb8"><param name="Name" value="PS_GetDriverVersion()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aeeaf868e734e8b4cc0fef2d5c4441de5"><param name="Name" value="PSL_VHR_20bit_Fusion_snap(unsigned short noise_reduction_factor)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a23c480d91457b36ad6d64b6072891220"><param name="Name" value="PSL_VHR_Close(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a91fbe1ba4c1960dd03356089933772f0"><param name="Name" value="PSL_VHR_Fusion_snap(unsigned short noise_reduction_factor)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af83cda1bb91619a9a32e79e0aa3c375e"><param name="Name" value="PSL_VHR_Fusion_snap_for_14_bit_cameras(unsigned short noise_reduction_factor)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ad644a20a624da4a8c30e52cb1fc8a002"><param name="Name" value="PSL_VHR_Get_20bit_fusion_image_pointer(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ace5fa8f4b33d1bad2c1dabdf5c109188"><param name="Name" value="PSL_VHR_Get_snap_status(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aeabebcac3f2c850b105c04151b080e62"><param name="Name" value="PSL_VHR_Is_14bit_camera(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af7cc6945f5dcc081b4ec0494626a0e26"><param name="Name" value="PSL_VHR_Is_Cyclops_camera(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a86dc403af8c44f1b6b734b562deb0230"><param name="Name" value="PSL_VHR_Open(char *PSL_camera_files_path)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a7b3152ec05bd73718452f1ffabe0852a"><param name="Name" value="PSL_VHR_Reload_camera_correction_files(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a83bbe7105bd162caf0006aae823d8dc9"><param name="Name" value="PSL_VHR_Snap_and_return(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae4f584a554c1f1ac822ee609b1c65e3b"><param name="Name" value="PSL_VHR_Snap_double_images(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a547da05b35df57a2bef448f55c09a150"><param name="Name" value="PSL_VHR_abort_snap(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a971b0f88a023f74e97a2591df9cb2988"><param name="Name" value="PSL_VHR_apply_post_snap_processing(unsigned short *pImage)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a1f86f987f3a2d2877630e4d20b42946f"><param name="Name" value="PSL_VHR_bestfit_is_enabled(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a54384805c4f6e3998a40f11f2eabcf2b"><param name="Name" value="PSL_VHR_configure_bright_pixel_processing(int bpmode)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ac08c54851ef179e507b2434cd92c76ef"><param name="Name" value="PSL_VHR_configure_high_precision_mapping(unsigned short xorigin, unsigned short yorigin, int rotation, unsigned short subwidth, unsigned short subheight, bool bAngularEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a9a37cc1e716e5131b5528b0a20e009e3"><param name="Name" value="PSL_VHR_convert_32_bit_image_to_16bit(unsigned long *orig_image, int image_width, int image_height)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a8b3fef5fb26df3a07e299decc47382b3"><param name="Name" value="PSL_VHR_enable_auto_gain_control(bool bEnable)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a8622261b1a251b2400fe1c6df8e0dc1d"><param name="Name" value="PSL_VHR_enable_bestfit(bool bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ac7ef985601f7af70bd3bfedd5dbaabbd"><param name="Name" value="PSL_VHR_enable_bright_corner_subtraction(bool bBrightCornerSubtractionEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ac924a2e6d597f3b79e2b4a1365805f1c"><param name="Name" value="PSL_VHR_enable_bright_pixel_correction(bool bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a82dfd9264ce60db49c2f30bfbd8c7f89"><param name="Name" value="PSL_VHR_enable_cooling(bool bCooling)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aa2ecc9d6bd2c5c59c8113261fe339698"><param name="Name" value="PSL_VHR_enable_cyclops_bin2_mode(bool bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aef3fc6ce72dc6edfc7b96978bfac77a3"><param name="Name" value="PSL_VHR_enable_flat_field_correction(bool bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a71a344a46feb444ea4efa9c813b3a69b"><param name="Name" value="PSL_VHR_enable_image_streaming(bool bEnable)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a0ed0b9caa56e9a772cebe98cb76c37ea"><param name="Name" value="PSL_VHR_enable_offset_subtraction(bool bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af24f115f8b84538dc028fecc5466d90b"><param name="Name" value="PSL_VHR_enable_sharpening(bool bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a6616cecc09578a5784168eb69416c0b2"><param name="Name" value="PSL_VHR_enable_spotred(bool bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a4591bf4b19423a082e2dd95315aa08f0"><param name="Name" value="PSL_VHR_enable_test_chart(int bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae8ecd19c0f3e3411ab2352797e87e567"><param name="Name" value="PSL_VHR_enable_undefined_bit(int bEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae8f20fe26a07c091956695ef5f530280"><param name="Name" value="PSL_VHR_free_sequence_storage(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#adff3e70b92a1a66fbe567900d3d371ea"><param name="Name" value="PSL_VHR_generate_flat_field_image(int numtoaverage)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a7457acc403b81f236603dd14f35bf435"><param name="Name" value="PSL_VHR_generate_high_precision_working_map(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aeb52c024281900789660bf9eac3d3c33"><param name="Name" value="PSL_VHR_get_PLD_date(unsigned short *day, unsigned short *month, unsigned short *year)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a88780f95f5b63a31b59cbf94cab1380d"><param name="Name" value="PSL_VHR_get_RG_end(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a174d04e76b642855ee0553b024f9e92f"><param name="Name" value="PSL_VHR_get_RG_start(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aa2b8df1aaf417d0addc9207838ec00cb"><param name="Name" value="PSL_VHR_get_SHD(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a340a7502df8694439dfbb958595d5b64"><param name="Name" value="PSL_VHR_get_SHP(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a24cc92f7c68cb83a58c9e34f4c89ca76"><param name="Name" value="PSL_VHR_get_SHP_width(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a42e67ab16e30a04824c8a188140af1cb"><param name="Name" value="PSL_VHR_get_actual_sub_area_coordinates(i32 *left, i32 *right, i32 *top, i32 *bottom)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a6ed815e809b384b29562c10a7bc6cc23"><param name="Name" value="PSL_VHR_get_auto_gain_control_status(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a579f1843c4fd4d28ca4c916fecec7494"><param name="Name" value="PSL_VHR_get_bright_pixel_mode(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af064a2101cee30527c95ec238c2824ff"><param name="Name" value="PSL_VHR_get_exposure_start_delay(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a33473a44063e90cd35e48cac78bfc174"><param name="Name" value="PSL_VHR_get_height(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a6d3e6132e2e41d457814911263d9018e"><param name="Name" value="PSL_VHR_get_high_precision_remapped_image_dimensions(int *working_mapwidth, int *working_mapheight)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a31792bfe9359bf694aaf87739417bb06"><param name="Name" value="PSL_VHR_get_image_pointer(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a1557069e1ca9efe90655f024f9ee9ee8"><param name="Name" value="PSL_VHR_get_image_pointer2(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a8712135fe44d8c90f6554a0659f1802f"><param name="Name" value="PSL_VHR_get_maximum_height(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#abd7f5e77920349585ec2aac4f114f5ae"><param name="Name" value="PSL_VHR_get_maximum_width(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a8b4f15caf4db1120e4b8e734462b555d"><param name="Name" value="PSL_VHR_get_offset()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#aeaaa6349f5453ef10937c10f7bd46ce4"><param name="Name" value="PSL_VHR_get_sequence_image_pointer(unsigned short **pSequenceImage, unsigned long image_required)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a969736f5e4c4f8bd4e54cfb38adb26da"><param name="Name" value="PSL_VHR_get_speed(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a72441e71afad3cd0d5f12fc9bc6aeac0"><param name="Name" value="PSL_VHR_get_trigger_out_high_time(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a46e9f4976680efbecb8038d737b1c2a6"><param name="Name" value="PSL_VHR_get_width(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a7b2d38a8acd7d612abbe692d1556c8ef"><param name="Name" value="PSL_VHR_initialise_sequence_storage(unsigned long no_images)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a16714057bba75854af538fc217dc087c"><param name="Name" value="PSL_VHR_load_camera_configuration_file(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a5b68770b5d7de0872f10df9082d72599"><param name="Name" value="PSL_VHR_open_map(char *mapfile)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a4090de5134e61c55705bce8eff35fbed"><param name="Name" value="PSL_VHR_perform_glow_correction(unsigned short *orig_image, int image_width, int image_height)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a28ed1be37660139819098a1a8b6a444c"><param name="Name" value="PSL_VHR_perform_high_precision_remap(unsigned short *orig_image, bool bSmoothingEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#abcb458b83e5591d4b1c79674e9f53deb"><param name="Name" value="PSL_VHR_read_PLD_temperature(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a17d1a0a7495c5b48a4bf76262b38e479"><param name="Name" value="PSL_VHR_remap_14bit_fusion_image(unsigned long *orig_image, int *image_width, int *image_height, bool bSmoothingEnabled, bool bClippingEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af71487f8e778b1d21f7e2ac91519736a"><param name="Name" value="PSL_VHR_remap_image(unsigned short *orig_image, int *image_width, int *image_height, bool bSmoothingEnabled, bool bClippingEnabled)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a0b65f514e17f79bab4021d69db4751bd"><param name="Name" value="PSL_VHR_reset_camera(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ab70d9c1c7278cb4097f42b70b2be843f"><param name="Name" value="PSL_VHR_save_flf_image(unsigned short *pImage, int width, int height, char *fname)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a2041e09526ab891e7dd602df2e40e637"><param name="Name" value="PSL_VHR_save_sequence_as_multiple_flf_files(unsigned long no_images_to_save)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ad3b1f0512e68330efcc06afad9124111"><param name="Name" value="PSL_VHR_select_IPORT_device(char *MACaddress, char *IPaddress)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a6e4232313dad8379e14e2d8f0927be37"><param name="Name" value="PSL_VHR_set_RG_end(int val)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ac3bab1961694557a87965bd4495c53c0"><param name="Name" value="PSL_VHR_set_RG_start(int val)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ab8427ee2e0941df9c04025179cb28270"><param name="Name" value="PSL_VHR_set_SHD(int val)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ab483901134c236dd95eb4eefd5de39b0"><param name="Name" value="PSL_VHR_set_SHP(int val)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a61052026b607ca6d724f0309a85c792c"><param name="Name" value="PSL_VHR_set_SHP_width(int val)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae999e6f392922d44cba90d61bf31a99e"><param name="Name" value="PSL_VHR_set_exposure(unsigned long time_in_millisecs)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a9632167bc338d14f05d597b1ff95719f"><param name="Name" value="PSL_VHR_set_exposure_start_delay(int val)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a47715221652f992dc755f2b9d9ba696e"><param name="Name" value="PSL_VHR_set_intensifier_gain(unsigned long iChipGain)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ae77cf418a231e7df95bddf61b1c8ba82"><param name="Name" value="PSL_VHR_set_offset(int offset)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a56587a8de3f038aa78c990d7f90d9da7"><param name="Name" value="PSL_VHR_set_preamp_gain_mode(int iMode)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a299250db101e245f3ad6714eb97eb784"><param name="Name" value="PSL_VHR_set_speed(int iSpeed)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#affc52c51df9eb7026d4c3fb7adc1285b"><param name="Name" value="PSL_VHR_set_sub_area_coordinates(i32 left, i32 right, i32 top, i32 bottom, i32 xBin, i32 yBin)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#af15695fddc7af802ea443d1eb74f638c"><param name="Name" value="PSL_VHR_set_trigger_mode(int trigger_mode)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a9d3c0d73ef49b1015045c933aae72adb"><param name="Name" value="PSL_VHR_set_trigger_out_high_time(int val)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#afe192c52d3ad2073dce3acfcc4508f86"><param name="Name" value="PSL_VHR_set_video_gain(unsigned long iVidGain)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a14c548722943ea5fda24eb3601ab32d0"><param name="Name" value="PSL_VHR_snap_sequence(unsigned long no_images_to_snap)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a54b655b93e1081d1870fdac700be469c"><param name="Name" value="PSL_VHR_software_bin_20bit_fusion_image(unsigned long *orig_image, int *image_width, int *image_height, int xbinning, int ybinning)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a723c3c9f7cb3a25c673148c0bd94ea2f"><param name="Name" value="PSL_VHR_software_bin_image(unsigned short *orig_image, int *image_width, int *image_height, int xbinning, int ybinning)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#ad075fb9e37987cd8413efb0012625145"><param name="Name" value="PSL_VHR_start_continuous(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a2e8a42fa362e45575db1f93bebf1fbe5"><param name="Name" value="PSL_VHR_stop_continuous(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a30c6ba6bc4f0c4bd6e8e62a3c302d745"><param name="Name" value="PSL_VHR_write_tiff16_file(unsigned short *orig_image, int image_width, int image_height, char *fname)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html"><param name="Name" value="fdscontrol.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="fdscontrol_8h.html#a53d4955c5aa8296107ffddd8de020cb8"><param name="Name" value="PS_GetDriverVersion()"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>
