@@ -1,0 +1,9 @@
+$(P)$(R)PixelRate
+$(P)$(R)PostProcessing
+$(P)$(R)OffsetSubtraction
+$(P)$(R)BrightPixelCorrection
+$(P)$(R)FlatFieldCorrection
+$(P)$(R)BrightCornerSubtraction
+$(P)$(R)SpotReduction
+$(P)$(R)Sharpening
+file "ADBase_settings.req", P=$(P), R=$(R)

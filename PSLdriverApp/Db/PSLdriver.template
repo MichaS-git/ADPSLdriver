@@ -1,0 +1,126 @@
+# Database for the records specific to the PSL cameras
+# Michael Sintschuk
+# March 29, 2023
+
+include "ADBase.template"
+
+###############################################################################
+#  Note: The following are records defined in ADBase.template.                #
+#        We are changing some of the fields here to reflect valid values for  #
+#        PS FDS                                                               #
+###############################################################################
+
+###############################################################################
+#  These records control the trigger mode.                                    #
+###############################################################################
+record(mbbo, "$(P)$(R)TriggerMode")
+{
+   field(ZRST, "Free Running")
+   field(ZRVL, "0")
+   field(ONST, "Software")
+   field(ONVL, "1")
+   field(TWST, "Hardware Falling")
+   field(TWVL, "2")
+   field(THST, "Hardware Rising")
+   field(THVL, "6")
+}
+
+record(mbbi, "$(P)$(R)TriggerMode_RBV")
+{
+   field(ZRST, "Free Running")
+   field(ZRVL, "0")
+   field(ONST, "Software")
+   field(ONVL, "1")
+   field(TWST, "Hardware Falling")
+   field(TWVL, "2")
+   field(THST, "Hardware Rising")
+   field(THVL, "6")
+   field(SCAN, "I/O Intr")
+}
+
+# The following records are specific to the Photonic Science FDS
+
+###############################################################################
+#  These records control the pixel rate.                                 #
+###############################################################################
+
+record(bo, "$(P)$(R)PixelRate")
+{
+   field(PINI, "YES")
+   field(DTYP, "asynInt32")
+   field(OUT,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_PIXEL_RATE")
+   field(ZNAM, "12.5 MHz")
+   field(ONAM, "25 MHz")
+}
+
+record(bi, "$(P)$(R)PixelRate_RBV")
+{
+   field(DTYP, "asynInt32")
+   field(INP,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_PIXEL_RATE")
+   field(ZNAM, "12.5 MHz")
+   field(ONAM, "25 MHz")
+   field(SCAN, "I/O Intr")
+}
+
+record(bo, "$(P)$(R)PostProcessing")
+{
+   field(PINI, "YES")
+   field(DTYP, "asynInt32")
+   field(OUT,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_POST_PROCESSING")
+   field(ZNAM, "Disabled")
+   field(ONAM, "Enabled")
+}
+
+record(bo, "$(P)$(R)OffsetSubtraction")
+{
+   field(PINI, "YES")
+   field(DTYP, "asynInt32")
+   field(OUT,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_OFFSET_SUBTRACTION")
+   field(ZNAM, "Disabled")
+   field(ONAM, "Enabled")
+}
+
+record(bo, "$(P)$(R)BrightPixelCorrection")
+{
+   field(PINI, "YES")
+   field(DTYP, "asynInt32")
+   field(OUT,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_BRIGHT_PIXEL_CORRECTION")
+   field(ZNAM, "Disabled")
+   field(ONAM, "Enabled")
+}
+
+record(bo, "$(P)$(R)FlatFieldCorrection")
+{
+   field(PINI, "YES")
+   field(DTYP, "asynInt32")
+   field(OUT,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_FLAT_FIELD_CORRECTION")
+   field(ZNAM, "Disabled")
+   field(ONAM, "Enabled")
+}
+
+record(bo, "$(P)$(R)BrightCornerSubtraction")
+{
+   field(PINI, "YES")
+   field(DTYP, "asynInt32")
+   field(OUT,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_BRIGHT_CORNER_SUBTRACTION")
+   field(ZNAM, "Disabled")
+   field(ONAM, "Enabled")
+}
+
+record(bo, "$(P)$(R)SpotReduction")
+{
+   field(PINI, "YES")
+   field(DTYP, "asynInt32")
+   field(OUT,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_SPOT_REDUCTION")
+   field(ZNAM, "Disabled")
+   field(ONAM, "Enabled")
+}
+
+record(bo, "$(P)$(R)Sharpening")
+{
+   field(PINI, "YES")
+   field(DTYP, "asynInt32")
+   field(OUT,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PSL_SHARPENING")
+   field(ZNAM, "Disabled")
+   field(ONAM, "Enabled")
+}
