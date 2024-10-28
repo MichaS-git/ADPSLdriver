@@ -126,7 +126,6 @@ void PSLdriver::imageTask()
     while(!exiting_) {
         getIntegerParam(ADAcquire, &acquire);
         if(!acquire) {
-            //cout << acquire << " acquire\n";
             unlock();
             epicsEventWait(startEvent_);
             lock();
@@ -141,7 +140,7 @@ void PSLdriver::imageTask()
 
         status = PSL_VHR_Get_snap_status();
         while (!status) {
-            //cout << "Inside waiting loop\n";
+            //cout << "waiting for snap_status!\n";
             status = PSL_VHR_Get_snap_status();
         }
         setIntegerParam(ADStatus, ADStatusReadout);
@@ -195,7 +194,6 @@ void PSLdriver::imageTask()
         }
         /* See if acquisition is done */
         if (this->framesRemaining > 0) this->framesRemaining--;
-        //cout << framesRemaining << " framesRemaining\n";
         if (this->framesRemaining == 0) {
             //cout << "done!\n";
             setShutter(0);
@@ -245,7 +243,7 @@ asynStatus PSLdriver::readParameters()
 asynStatus PSLdriver::setGeometry()
 {
     int status = asynSuccess;
-    int binX, binY, minY, minX, sizeX, sizeY, maxSizeX, maxSizeY;
+    int binX, binY, minX, minY, maxX, maxY, sizeX, sizeY, maxSizeX, maxSizeY;
     static const char *functionName = "setGeometry";
 
     /* Get all of the current geometry parameters from the parameter library */
@@ -260,18 +258,20 @@ asynStatus PSLdriver::setGeometry()
     status = getIntegerParam(ADMaxSizeX, &maxSizeX);
     status = getIntegerParam(ADMaxSizeY, &maxSizeY);
 
-    if (minX + sizeX > maxSizeX) {
-        sizeX = maxSizeX - minX;
-        setIntegerParam(ADSizeX, sizeX);
+    maxX = sizeX + minX;
+    if (maxX > maxSizeX) {
+        maxX = maxSizeX;
+        setIntegerParam(ADSizeX, maxX);
     }
 
-    if (minY + sizeY > maxSizeY) {
-        sizeY = maxSizeY - minY;
-        setIntegerParam(ADSizeY, sizeY);
+    maxY = sizeY + minY;
+    if (maxY > maxSizeY) {
+        maxY = maxSizeY;
+        setIntegerParam(ADSizeY, maxY);
     }
 
     if(!status){
-        status = !PSL_VHR_set_sub_area_coordinates(minX, sizeX, minY, sizeY, binX, binY);
+        status = !PSL_VHR_set_sub_area_coordinates(minX, maxX, minY, maxY, binX, binY);
     }
 
     if (status) asynPrint(this->pasynUserSelf, ASYN_TRACE_ERROR,
@@ -283,7 +283,7 @@ asynStatus PSLdriver::setGeometry()
 asynStatus PSLdriver::getGeometry()
 {
     int status = asynSuccess;
-    long minX, minY, sizeX, sizeY, maxSizeX, maxSizeY;
+    long minX, minY, maxX, maxY, sizeX, sizeY, maxSizeX, maxSizeY;
     long signed imageWidth, imageHeight;
     static const char *functionName = "getGeometry";
 
@@ -293,7 +293,10 @@ asynStatus PSLdriver::getGeometry()
     status = setIntegerParam(ADMaxSizeX,  maxSizeX);
     status = setIntegerParam(ADMaxSizeY, maxSizeY);
 
-    PSL_VHR_get_actual_sub_area_coordinates(&minX, &sizeX, &minY, &sizeY);
+    PSL_VHR_get_actual_sub_area_coordinates(&minX, &maxX, &minY, &maxY);
+
+    sizeX = maxX - minX;
+    sizeY = maxY - minY;
 
     status = setIntegerParam(ADMinX,  minX);
     status = setIntegerParam(ADMinY,  minY);
@@ -320,15 +323,16 @@ asynStatus PSLdriver::getGeometry()
 asynStatus PSLdriver::writeInt32(asynUser *pasynUser, epicsInt32 value)
 {
     int function = pasynUser->reason;
-    int status = asynSuccess;
+    int status = asynSuccess, acquire;
     static const char *functionName = "writeInt32";
 
     /* Set the parameter and readback in the parameter library.  This may be overwritten when we read back the
      * status at the end, but that's OK */
-    status = setIntegerParam(function, value);
+    //status = setIntegerParam(function, value);
 
     if (function == ADAcquire) {
         if(value) {
+            status = setIntegerParam(function, value);
             int imageMode, numImages;
             getIntegerParam(ADImageMode, &imageMode);
             getIntegerParam(ADNumImages, &numImages);
@@ -347,8 +351,15 @@ asynStatus PSLdriver::writeInt32(asynUser *pasynUser, epicsInt32 value)
             setShutter(1);
             epicsEventSignal(startEvent_);
         } else {
+            //PSL_VHR_abort_snap(); // this is not working ...
             this->framesRemaining = 0;
-            //PSL_VHR_abort_snap();
+            /*getIntegerParam(ADStatus, &status);
+            while (status != ADStatusIdle) {
+                 getIntegerParam(ADStatus, &status);
+                 cout << status << " waiting for ADStatusIdle!\n";
+                 epicsThreadSleep(0.05);
+                 readParameters();
+            }*/
         }
     } else if ((function == ADBinX) ||
         (function == ADBinY) ||
@@ -356,24 +367,46 @@ asynStatus PSLdriver::writeInt32(asynUser *pasynUser, epicsInt32 value)
         (function == ADSizeX) ||
         (function == ADMinY) ||
         (function == ADSizeY)) {
-        setGeometry();
+        getIntegerParam(ADAcquire, &acquire);
+        if(!acquire) {
+            status = setIntegerParam(function, value);
+            // this function can not be called during acquisition!
+            setGeometry();
+        }
     } else if (function == ADTriggerMode) {
-        PSL_VHR_set_trigger_mode(value);
+        getIntegerParam(ADAcquire, &acquire);
+        if(!acquire) {
+            status = setIntegerParam(function, value);
+            // this function can not be called during acquisition!
+            PSL_VHR_set_trigger_mode(value);
+        }
     } else if (function == PSLPixelSpeed) {
-        PSL_VHR_set_speed(value);
+        getIntegerParam(ADAcquire, &acquire);
+        if(!acquire) {
+            status = setIntegerParam(function, value);
+            // this function can not be called during acquisition!
+            PSL_VHR_set_speed(value);
+        }
     } else if (function == PSLOffsetSubtraction) {
+        status = setIntegerParam(function, value);
         PSL_VHR_enable_offset_subtraction(value ? true:false);
     } else if (function == PSLBrightPixelCorrection) {
+        status = setIntegerParam(function, value);
         PSL_VHR_enable_bright_pixel_correction(value ? true:false);
     } else if (function == PSLFlatFieldCorrection) {
+        status = setIntegerParam(function, value);
         PSL_VHR_enable_flat_field_correction(value ? true:false);
     } else if (function == PSLBrightCornerSubtraction) {
+        status = setIntegerParam(function, value);
         PSL_VHR_enable_bright_corner_subtraction(value ? true:false);
     } else if (function == PSLSpotReduction) {
+        status = setIntegerParam(function, value);
         PSL_VHR_enable_spotred(value ? true:false);
     } else if (function == PSLSharpening) {
+        status = setIntegerParam(function, value);
         PSL_VHR_enable_sharpening(value ? true:false);
     } else {
+        status = setIntegerParam(function, value);
         /* If this is not a parameter we have handled call the base class */
         if (function < FIRST_PSL_PARAM) status = ADDriver::writeInt32(pasynUser, value);
     }
@@ -399,18 +432,23 @@ asynStatus PSLdriver::writeInt32(asynUser *pasynUser, epicsInt32 value)
 asynStatus PSLdriver::writeFloat64(asynUser *pasynUser, epicsFloat64 value)
 {
     int function = pasynUser->reason;
-    int status = asynSuccess;
+    int status = asynSuccess, acquire;
     const char *paramName;
     static const char *functionName = "writeFloat64";
 
     getParamName(function, &paramName);
     /* Set the parameter and readback in the parameter library.  This may be overwritten when we read back the
      * status at the end, but that's OK */
-    status |= setDoubleParam(function, value);
+    //status |= setDoubleParam(function, value);
 
     if (function == ADAcquireTime) {
-        /* Photonic Science FDS uses integer milliseconds */
-        status = !PSL_VHR_set_exposure((unsigned long)(value * 1e3));
+        getIntegerParam(ADAcquire, &acquire);
+        if(!acquire) {
+            /* Photonic Science FDS uses integer milliseconds */
+            // this function can not be called during acquisition!
+            status = !PSL_VHR_set_exposure((unsigned long)(value * 1e3));
+            status |= setDoubleParam(function, value);
+        }
     }
 
     status |= readParameters();
@@ -518,7 +556,7 @@ PSLdriver::PSLdriver(const char *portName, char *filesPath, int maxBuffers,
 
     /* launch image read task */
     epicsThreadCreate("PSLdriverImageTask",
-                      epicsThreadPriorityMedium,
+                      epicsThreadPriorityHigh,
                       epicsThreadGetStackSize(epicsThreadStackMedium),
                       c_imagetask, this);
 

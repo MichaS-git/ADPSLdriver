@@ -9,7 +9,7 @@ epicsEnvSet("PREFIX", "XRFDS:")
 # The port name for the detector
 epicsEnvSet("PORT",   "PSL")
 # The queue size for all plugins
-epicsEnvSet("QSIZE",  "20")
+epicsEnvSet("QSIZE",  "200")
 # The maximim image width; used for row profiles in the NDPluginStats plugin
 epicsEnvSet("XSIZE",  "2744")
 # The maximim image height; used for column profiles in the NDPluginStats plugin
