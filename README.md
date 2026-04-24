@@ -1,5 +1,5 @@
 # ADPSLdriver
-An EPICS areaDetector driver for the X-ray FDS detector from Photonic Science Limited (PSL). 
+An EPICS areaDetector driver for the X-ray FDS detector from Photonic Science Limited (PSL). It needs to be build inside the AreaDetector environment.
 
 First version of the driver. Needs to be tested and debugged. You need the original PSL files to compile and use it:
 
